@@ -75,9 +75,16 @@ With the white people, there are 65% of them who are in favor while 35% are oppo
 
 ## Inferential Results
 
-<!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+<!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfy the assumptions and is appropriate to answer the research question!-->
 
-`
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The given data shows observed count that 1300 white people are in favor of capitol punishment and 697 were against it. 191 black people favor the capitol punishment, on the other hand, 257 opposed it. Lastly, 138 other people are in favor of capitol punishment while 112 are against it. 
 
 
 ## More data version
