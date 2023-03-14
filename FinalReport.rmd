@@ -12,6 +12,7 @@ output: html_document
 
 
 ```{r include=FALSE,echo=FALSE}
+source("fisherXY.R")
 require(tidyverse)
 require(tigerstats)
 require(knitr)
@@ -44,6 +45,13 @@ If not, then whose view differs from whom??
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
 
+```{r}
+barchartGC(~race + cappun,data=mydata)
+barchartGC(~race + cappun,data=mydata, type="percent")
+
+```
+
+Even though there's less people, the bar graph is similar to the Master branch. There's more white people favoring capitol punishment thatn opposing it. There's more black people opposing capitol punishment than favoring it. Lastly, other races favor capitol punishment over opposing it. Whites favor capitol punishment the most, while the highest percentage in opposition of capiol punishment is for blacks. 
 
 ## Now with LESS data (more variables give less data due to NA's) create the approate graphic displays to answer the question.
 
