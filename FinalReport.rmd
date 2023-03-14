@@ -86,6 +86,12 @@ fisher.test(table1)
 
 The given data shows observed count that 1300 white people are in favor of capitol punishment and 697 were against it. 191 black people favor the capitol punishment, on the other hand, 257 opposed it. Lastly, 138 other people are in favor of capitol punishment while 112 are against it. 
 
+```{r}
+fisherXY(mydata$race,mydata$cappun,printAll=TRUE) 
+
+```
+The p-values show that every race is different from every other race. From the fisherXY test, we can see that statistically, each race differs from another making all t-test results significant. The fisherXY test compared each pair in ever category to give us a more accurate comparasion. 
+
 
 ## More data version
 
