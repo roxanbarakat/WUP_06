@@ -99,3 +99,5 @@ The p-values show that every race is different from every other race. From the f
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+We conclude that white and black differ, white and other differ, and black and other differ in terms of favoring and opposing capitol punishment. After looking at the numerical results, Chi-squared test, p-value, and fisherXY test with approximately 2700 we conclude that each race differs than the other when it comes to capitol punishment. 
