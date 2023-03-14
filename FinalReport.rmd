@@ -12,7 +12,6 @@ output: html_document
 
 
 ```{r include=FALSE,echo=FALSE}
-source("fisherXY.R")
 require(tidyverse)
 require(tigerstats)
 require(knitr)
@@ -21,6 +20,7 @@ GSS <-read.dta(file="GSS2016.dta")
 GSS <- droplevels(GSS)
 mydata <- select(GSS,sex,race,cappun,degree,relig,gunlaw,tvhours,owngun,age,wordsum)
 mydata <- na.omit(mydata)
+source(file = "fisherXY.R")
 ```
 
 # Introduction
@@ -62,9 +62,13 @@ Even though there's less people, the bar graph is similar to the Master branch. 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
-
-
+The table above shows that there's 66% of the white population in favor of capitol punishment while 32% is opposed. Other population has 61% in favor and 39% opposed. The black population has 47% in favor with 53% opposed. The percentages here differ from those in the master branch, but still are very similar.
 
 
 
