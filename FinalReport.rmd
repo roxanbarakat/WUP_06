@@ -95,7 +95,7 @@ The fisher XY test shows that White and Black are different since the p-value is
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-
+The data above shows that the population of whites had the most in favor for capitol punishment. The second highest was the population of other and the lowest was the population of blacks. This is similar to the values from the master branch, but the percentage in this branch were higher than in the master branch since we were given a smaller sample size. 
 
 
 
