@@ -81,14 +81,14 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-
+The Chi-squared test shows 
 
 
 
 ```{r}
 fisherXY(mydata$race,mydata$cappun,printAll=TRUE)
 ```
-
+The fisher XY test shows that White and Black are different since the p-value is 1.7 x 10^-5. White and Other are not different due to the p-value being 0.25. Black and Other are close to being different since the p-value is 0.063 which is a bit greater than 0.05. A p-value greater than 0.5 indicates that the null hypothesis is true meaning there's a difference between the 2 groups, a p-value less than 0.5 is statistically significant. 
 
 
 # Discussion and Conclusion
