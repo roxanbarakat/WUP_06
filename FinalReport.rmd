@@ -81,7 +81,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The Chi-squared test shows 
+The Chi-squared test  is a measure of the difference between the observed and expected frequencies of the outcomes of a set of events or variables. Observed data wasn't much different from the expected since numbers were close. For example, observed counts for whites who are in favor are 416, expectd whites who are in favor are about 400. 
 
 
 
@@ -94,6 +94,7 @@ The fisher XY test shows that White and Black are different since the p-value is
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
 
 
 
